@@ -960,6 +960,31 @@
     )
   )
 
+  (symbol (lib_id "Connector:Conn_01x01_Pin") (at 116.84 66.04 270) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 9cd2d55e-1157-477f-b694-91531f8e9fef)
+    (property "Reference" "J3" (at 118.11 66.04 90)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "Conn_01x01_Pin" (at 118.11 68.58 90)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "Connector_Pin:Pin_D1.0mm_L10.0mm" (at 116.84 66.04 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 116.84 66.04 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid a58d2198-4f2f-4406-a341-e24230341696))
+    (instances
+      (project "Kicad_AD8056"
+        (path "/a1050240-6afd-4d64-aa63-d05004cefa40"
+          (reference "J3") (unit 1)
+        )
+      )
+    )
+  )
+
   (symbol (lib_id "Device:R_Potentiometer") (at 72.39 82.55 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid b445ef8c-ca10-4da8-9afe-d32eba67bf92)
@@ -1040,32 +1065,6 @@
       (project "Kicad_AD8056"
         (path "/a1050240-6afd-4d64-aa63-d05004cefa40"
           (reference "R1") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Connector:Conn_Coaxial") (at 116.84 66.04 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid cb6c229b-19cd-412f-9d7f-6d8ab9966185)
-    (property "Reference" "J3" (at 120.65 65.6982 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "Conn_Coaxial" (at 120.65 68.2382 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "Connector_Coaxial:BNC_Amphenol_B6252HB-NPP3G-50_Horizontal" (at 116.84 66.04 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" " ~" (at 116.84 66.04 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 4c24dcbf-84c6-4ac1-ab78-b4374221585a))
-    (pin "2" (uuid 22164cf8-6ad0-4f39-8316-f0e2879014ed))
-    (instances
-      (project "Kicad_AD8056"
-        (path "/a1050240-6afd-4d64-aa63-d05004cefa40"
-          (reference "J3") (unit 1)
         )
       )
     )
